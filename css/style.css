@@ -133,8 +133,11 @@
     box-shadow: black 2px 2px 2px 2px;
     padding: 8px 18px;
 }
-.view-button {
-
+.right-content {
+    height: 220px;
+}
+.projects {
+    margin-bottom: 30px;
 }
 @media(min-width: 767px) {
     .nav ul {
@@ -158,21 +161,24 @@
     border-bottom: 36px solid lightblue;
     opacity: .4;
 }
-.projects p {
-    height: 100px;
-}
 @media(min-width: 767px) {
     .right-content {
-        height: 190px;
+        height: 220px;
+    }
+    .right-content a {
+        margin-top: 50px;
     }
 }
 @media(min-width: 991px) {
     .projects img {
-        max-height: 300px;
+        height: 300px;
         width: 300px;
     }
     .right-content {
-        height: 260px;
+        height: 300px;
+    }
+    .right-content p {
+        margin-bottom: 150px;
     }
 }
 .contact {
