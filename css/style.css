@@ -124,6 +124,18 @@
 .about p {
     margin-top: 20px;
 }
+.view-button {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 2px;
+    background-color: grey;
+    box-shadow: black 2px 2px 2px 2px;
+    padding: 8px 18px;
+}
+.view-button {
+
+}
 @media(min-width: 767px) {
     .nav ul {
         padding: 14px 0 5px;
@@ -150,8 +162,8 @@
     height: 100px;
 }
 @media(min-width: 767px) {
-    .projects p {
-        height: 162px;
+    .right-content {
+        height: 190px;
     }
 }
 @media(min-width: 991px) {
@@ -159,8 +171,8 @@
         max-height: 300px;
         width: 300px;
     }
-    .projects p {
-        height: 225px;
+    .right-content {
+        height: 260px;
     }
 }
 .contact {
