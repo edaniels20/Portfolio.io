@@ -2,7 +2,7 @@ function r(f){/in/.test(document.readyState)?setTimeout('r('+f+')',9):f()}
 r(function() {
     document.getElementById('email').onclick = function() {
         var textArea = document.createElement("textarea");
-        textArea.value = 'e.daniels20@live.com';
+        textArea.value = 'ethandanielscoding@gmail.com';
         document.body.appendChild(textArea);
         textArea.focus();
         textArea.select();
